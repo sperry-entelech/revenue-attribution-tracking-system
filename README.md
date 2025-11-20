@@ -11,9 +11,11 @@ A production-ready SaaS revenue tracking dashboard built with Next.js 16, TypeSc
 
 This dashboard was built as an MVP for demonstrating revenue attribution tracking capabilities to potential clients. It showcases how to integrate external data sources (Google Sheets) with a modern web application while maintaining clean, maintainable code.
 
+> **⚡ DEMO-READY RIGHT NOW**: This project works immediately with static demo data - perfect for screenshots, recordings, and client presentations. The Google Sheets integration is **fully documented** but optional. You can show this off today and connect real data sources when production-ready.
+
 **Key Features:**
 - 📊 **20+ Metrics** across 5 dashboard sections
-- 🔄 **Real-time Google Sheets Integration** (optional)
+- 🔄 **Real-time Google Sheets Integration** (documented, optional)
 - 🎨 **Minimalist Design** inspired by Stripe, Linear, and Vercel
 - 📱 **Fully Responsive** from mobile to 4K displays
 - 🔒 **Type-Safe** with full TypeScript coverage
@@ -197,10 +199,17 @@ This dashboard makes it easy to track and compare these channels at a glance.
 
 ## 📚 Documentation
 
+### Getting Started
+- **[DEMO_GUIDE.md](./DEMO_GUIDE.md)** - 🎯 **START HERE** for quick demos & screenshots
 - **[START_HERE.md](./START_HERE.md)** - 60-second quick start guide
 - **[QUICKSTART.md](./QUICKSTART.md)** - Fast setup instructions
-- **[GOOGLE_SHEETS_SETUP.md](./GOOGLE_SHEETS_SETUP.md)** - Connect Google Sheets
-- **[AZURE_DEPLOYMENT.md](./AZURE_DEPLOYMENT.md)** - Deploy to Azure
+
+### Production Implementation
+- **[GOOGLE_SHEETS_SETUP.md](./GOOGLE_SHEETS_SETUP.md)** - Connect Google Sheets API (30 min)
+- **[N8N_WORKFLOW_GUIDE.md](./N8N_WORKFLOW_GUIDE.md)** - Automated data pipeline setup (planned)
+- **[AZURE_DEPLOYMENT.md](./AZURE_DEPLOYMENT.md)** - Deploy to Azure production
+
+### Reference
 - **[PROJECT_SUMMARY.md](./PROJECT_SUMMARY.md)** - Complete project overview
 - **[VISUAL_DESIGN.md](./VISUAL_DESIGN.md)** - Design decisions explained
 - **[FILE_MANIFEST.md](./FILE_MANIFEST.md)** - What each file does
